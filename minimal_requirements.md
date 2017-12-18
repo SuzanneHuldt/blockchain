@@ -3,6 +3,7 @@
 ## A. what are the minimal requirements for building something that can call itself a blockchain?
 
   1) a ledger
+
     a) some way to store information in a way that:
 
     b) is distributed (ie. exists on different systems at one time)
@@ -16,7 +17,7 @@
     b) strictly ordered according to timestamp accompanying appended data
 
   c) a way to sign and seal blocks
-  
+
     a) an agreed function for generating unique hash keys available for all users to seal completed transactions
 
 ## B. what are the best technologies for us as a team to use to implement these requirements?
