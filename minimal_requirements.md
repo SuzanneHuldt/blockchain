@@ -16,9 +16,11 @@
 
     b) strictly ordered according to timestamp accompanying appended data
 
-  c) a way to sign and seal blocks
+  3) a way to sign and seal blocks
 
     a) an agreed function for generating unique hash keys available for all users to seal completed transactions
+
+    BONUS: proof of work - as a way to increase security for sealing blocks 
 
 ## B. what are the best technologies for us as a team to use to implement these requirements?
 
