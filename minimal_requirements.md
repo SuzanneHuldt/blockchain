@@ -26,6 +26,8 @@
 
   1) can we implement an ordinary database that users rake onto their own systems with a piece of code we provide: eg a rakefile with code that we have specified? => how do we make this secure? - what is the best interface for us to implement?
 
+  - could we eg. write a shell script that runs the rakefile to update the database locally when the user agrees to the newest transaction?
+
   2) need to ensure that interface output is such that the whole length of the chain (ie. every transaction in order, including the most recent is shown) => for our purposes a chronological list (with timestamps) might do?
 
   - also need some way for users to see how long their chain is compared to others, ie. whether they are at the most recent point in the chain - a length comparison of some kind.
