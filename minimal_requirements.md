@@ -28,9 +28,11 @@
 
   2) need to ensure that interface output is such that the whole length of the chain (ie. every transaction in order, including the most recent is shown) => for our purposes a chronological list (with timestamps) might do?
 
-  - also need some way for users to see how long their chain is compared to others, ie. whether they are at the most recent point in the chain - a length comparison of some kind. 
+  - also need some way for users to see how long their chain is compared to others, ie. whether they are at the most recent point in the chain - a length comparison of some kind.
 
   3) THE HARD BIT - what kind of cryptography do we want to use to generate unique keys that can be used by all users?
+
+  - also need a way to compare seals for authenticity (ie. by comparison with expected outcome - presumably regexes? or similar)
 
 
 ## C. which of these makes sense to implement first as an MVP?
