@@ -15,7 +15,7 @@ class Blockchain
   end
 
   def new_transaction(sender, recipient, amount)
-    @transactions.push(transaction = Transaction.new(sender, recipient, amount)) 
+    @current_transactions.push(transaction = Transaction.new(sender, recipient, amount)) 
     return last_block
   end
 
