@@ -15,11 +15,8 @@ class Blockchain
   end
 
   def new_transaction(sender, recipient, amount)
-    @transactions.push(transaction = Transaction.new(sender, recipient, amount)) #create new transaction
+    @transactions.push(transaction = Transaction.new(sender, recipient, amount)) 
     return last_block
-    #append then return index of block to be added to - as this TRANSACTION goes into
-    # the NEXT block to be created -> it is stored in the transaction array so that it
-    #- or rather its hash - can be appeneded
   end
 
   def last_block
