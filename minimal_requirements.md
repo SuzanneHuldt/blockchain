@@ -34,6 +34,9 @@
 
   3) THE HARD BIT - what kind of cryptography do we want to use to generate unique keys that can be used by all users?
 
+    - Bcrypt
+    -javascript module SHA256
+
   - also need a way to compare seals for authenticity (ie. by comparison with expected outcome - presumably regexes? or similar)
 
 
